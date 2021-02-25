@@ -1,6 +1,8 @@
 # Entity Relationship Diagrams
 
-Here are my diagrams to model the following scenarios, this is a practical from week 4 of Makers Academy.
+This is a practical task from week 4 of Makers Academy. Here are the diagrams I produced to model the following scenarios.
+
+The txt files above were used inside of [playground.diagram.codes](https://playground.diagram.codes/) to create the diagrams. Feel free to use or adapt them.
 
 ```
 Diagram the following:
