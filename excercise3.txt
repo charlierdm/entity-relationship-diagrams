@@ -1,0 +1,18 @@
+#table definitions
+Table "Member" as member:
+"Member"
+
+Table "Meetup" as meetup:
+"Cohort"
+
+
+#table relations
+
+# a simple one to one relation
+
+# dual relations
+
+# dual relations with cardinality
+member - meetup : (One,Many)
+meetup - member: (OneOrMany
+

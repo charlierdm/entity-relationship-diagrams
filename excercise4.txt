@@ -1,0 +1,33 @@
+#table definitions
+Table "Twitter" as twitter:
+"social platform"
+
+Table "User" as user:
+"user"
+
+Table "Tweet" as tweet:
+"tweet"
+
+Table "Hashtags" as hashtags:
+"#"
+
+Table "Viewers" as viewers:
+"viewers"
+
+
+
+#table relations
+
+# a simple one to one relation
+
+# dual relations
+
+# dual relations with cardinality
+twitter - user : (One,Many)
+user - tweet : (One,Many)
+tweet - hashtags: (One,Many)
+tweet - viewers: (Many,Many)
+
+
+
+

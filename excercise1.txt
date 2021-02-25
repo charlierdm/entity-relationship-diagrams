@@ -1,0 +1,21 @@
+#table definitions
+Table "Owner" as Owner:
+"Owner of the group or company"
+
+Table "Organisations" as Organisations:
+"Company or Social Group .etc"
+
+Table "Slack" as Slack:
+"Chat Channel"
+
+
+#table relations
+
+# a simple one to one relation
+Owner - Organisations
+
+# dual relations
+
+# dual relations with cardinality
+
+Organisations - Slack: (Many,Many)

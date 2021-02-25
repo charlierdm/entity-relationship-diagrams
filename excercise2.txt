@@ -1,0 +1,29 @@
+#table definitions
+Table "Students" as students:
+"Cohort"
+
+Table "Coaches" as coaches:
+"Coaches"
+
+Table "Owner" as owner:
+"owns Makers"
+
+
+Table "Makers Academy" as makers:
+"coding bootcamp"
+
+
+#table relations
+
+# a simple one to one relation
+
+owner - makers
+
+
+# dual relations
+
+# dual relations with cardinality
+makers - students: (One,Many)
+makers - coaches: (One,Many)
+coaches - students: (Many,Many)
+owner - coaches: (One,Many)
